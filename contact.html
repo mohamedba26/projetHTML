@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="academicbackground.html">Academic background</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experiences</a>
+            <a href="events.html">Events</a>
+            <a href="projects.html">Projects</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html" id="active">Contact</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+    </header>
+    <main>
+
+        <div id="contact-info">
+            <h1>Contact Information</h1>
+            <p><strong>Email:</strong> <a href="mailto:mohamed.benamar026@gmail.com">mohamed.benamar026@gmail.com</a></p>
+            <p><strong>Phone:</strong> +216 26 586 005</p>
+            <p><strong>Address:</strong> Route Aiin km 6 , Sfax</p>
+        </div>
+
+        <div id="contact-form">
+            <h1>Contact Us</h1>
+            <form id="contact-form" action="https://formspree.io/f/mqknqjwy" method="POST" onsubmit="this.submit(); window.location.href='mailto:mohamed.benamar026@gmail.com?subject=Contact%20Form%20Message&body=' + encodeURIComponent(document.getElementById('message').value); return false;">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

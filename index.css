@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 50px);
+    margin: 0px 10px;
+}
+
+#teswirti{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px #7ea3c8;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    margin: 20px;
+}
+
+div img{
+    margin: 20px;
+}
+
+#socialMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 60%;
+    background-color: white;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#text{
+    box-shadow: 5px 5px 5px 0px #6394b9;
+    padding: 5px;
+}

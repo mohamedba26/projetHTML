@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background-color: #f8f9fa;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background-color: #e9ecef;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+    color:grey;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#active{
+    color: black;
+}
+
+h1,h2{
+    color: #6394b9;
+}
+
+p,label,strong{
+    font-family: 'Poppins';
+}
